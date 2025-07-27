@@ -48,7 +48,7 @@ const education = [
 
 const currentProject = {
   name: "Fleet Management System",
-  desc: "Building a WPF application that adminstrating the containers and its location with activities.,
+  desc: "Building a WPF application that adminstrating the containers and its location with activities."
   // link: "https://github.com/yourusername/ai-devops-assistant"
 };
 
@@ -99,7 +99,7 @@ function App() {
           <div className="project-highlight">
             <div className="project-title">{currentProject.name}</div>
             <div className="project-desc">{currentProject.desc}</div>
-            <a className="project-link" href={currentProject.link} target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            {/* <a className="project-link" href={currentProject.link} target="_blank" rel="noopener noreferrer">View on GitHub</a> */}
           </div>
         </section>
 
@@ -132,6 +132,22 @@ function App() {
         </section>
 
         <section className="section">
+          <h2>GitHub Projects</h2>
+          <ul className="projects-list">
+            <li className="project-card">
+              <div className="project-title">MAUI</div>
+              <div className="project-desc">MAUI - Application to process the published files. </div>
+              <a className="project-link" href="https://github.com/Enginnervenkat/MAUI_Repo.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </li>
+            <li className="project-card">
+              <div className="project-title">Design Pattern</div>
+              <div className="project-desc">Design Pattern  repo for understanding the design pattern. Implemented Factory method.</div>
+              <a className="project-link" href="https://github.com/Enginnervenkat/DesignPattern.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </li>
+          </ul>
+        </section>
+
+        <section className="section">
           <h2>Past Projects</h2>
           <ul className="projects-list">
             <li className="project-card">
@@ -155,29 +171,29 @@ history of the notification and events.</div>
             </li>
           </ul>
         </section>
-
+            
         <section className="section">
-          <h2>Skills</h2>
-          <ul className="skills-list">
-            <li className="skill-badge">JavaScript</li>
-            <li className="skill-badge">TypeScript</li>
-            <li className="skill-badge">React</li>
-            <li className="skill-badge">DotNetCore</li>
-            <li className="skill-badge">MAUI</li>
-            <li className="skill-badge">Sql</li>
-            <li className="skill-badge">WPF</li>
-            <li className="skill-badge">Micro Services</li>
-            <li className="skill-badge">OpenAi-Turbo</li>
-            <li className="skill-badge">REST Api</li>
-            <li className="skill-badge">C#</li>
-            <li className="skill-badge">Node.js</li>
-            <li className="skill-badge">GraphQL</li>
-            <li className="skill-badge">MongoDB</li>
-            <li className="skill-badge">PostgreSQL</li>
-            <li className="skill-badge">Mentoring</li>
-          </ul>
+        <h2>Skills</h2>
+        <ul className="skills-list">
+          <li className="skill-badge">JavaScript</li>
+          <li className="skill-badge">TypeScript</li>
+          <li className="skill-badge">React</li>
+          <li className="skill-badge">DotNetCore</li>
+          <li className="skill-badge">MAUI</li>
+          <li className="skill-badge">Sql</li>
+          <li className="skill-badge">WPF</li>
+          <li className="skill-badge">Micro Services</li>
+          <li className="skill-badge">OpenAi-Turbo</li>
+          <li className="skill-badge">REST Api</li>
+          <li className="skill-badge">C#</li>
+          <li className="skill-badge">Node.js</li>
+          <li className="skill-badge">GraphQL</li>
+          <li className="skill-badge">MongoDB</li>
+          <li className="skill-badge">PostgreSQL</li>
+          <li className="skill-badge">Mentoring</li>
+        </ul>
         </section>
-
+            
         <section className="section">
           <h2>Practicing</h2>
           <ul className="skills-list">
