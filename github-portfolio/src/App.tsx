@@ -35,21 +35,21 @@ const workHistory = [
 
 const education = [
   {
-    degree: "M.Tech, Computer Science",
-    institution: "IIT Bombay",
-    year: "2011 - 2013"
-  },
-  {
     degree: "B.Tech, Information Technology",
     institution: "Anna University",
-    year: "2007 - 2011"
-  }
+    year: "2011 - 2014"
+  },
+  {
+    degree: "Diploma, Computer Engineering",
+    institution: "Directorate of Technical Board, Tamil Nadu",
+    year: "2009 - 2011"
+  },
 ];
 
 const currentProject = {
-  name: "AI-Powered DevOps Assistant",
-  desc: "Building an LLM-based assistant to automate cloud infrastructure and CI/CD workflows.",
-  link: "https://github.com/yourusername/ai-devops-assistant"
+  name: "Fleet Management System",
+  desc: "Building a WPF application that adminstrating the containers and its location with activities.,
+  // link: "https://github.com/yourusername/ai-devops-assistant"
 };
 
 const learning = [
@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>VENKATESH | Senior Fullstack Developer Portfolio</title>
+        <title>VENKATESH | Developer Portfolio</title>
         <meta name="description" content="Venkat's portfolio - 12+ years Fullstack Developer (React, Node.js, AWS, DevOps). Work history, projects, skills, resume, and more." />
         <meta name="keywords" content="Venkat, Fullstack Developer, React, Node.js, AWS, DevOps, Portfolio, Resume, TypeScript, Senior Developer" />
         <meta name="author" content="Venkat" />
@@ -103,7 +103,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section">
+        {/* <section className="section">
           <h2>Work History</h2>
           <ul className="timeline">
             {workHistory.map((job, idx) => (
@@ -116,7 +116,7 @@ function App() {
               </li>
             ))}
           </ul>
-        </section>
+        </section> */}
 
         <section className="section">
           <h2>Education</h2>
@@ -135,19 +135,23 @@ function App() {
           <h2>Past Projects</h2>
           <ul className="projects-list">
             <li className="project-card">
-              <div className="project-title">Enterprise Dashboard</div>
-              <div className="project-desc">Analytics dashboard for enterprise clients using React, Redux, and D3.js.</div>
-              <a className="project-link" href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              <div className="project-title">WEBEX - ERP</div>
+              <div className="project-desc">WEBEX - ERP for ERP project for commercial purpose and overall analysis, raw material into 
+final product. </div>
+              {/* <a className="project-link" href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer">View on GitHub</a> */}
             </li>
             <li className="project-card">
-              <div className="project-title">Cloud API Platform</div>
-              <div className="project-desc">Robust Node.js/TypeScript REST API platform on AWS.</div>
-              <a className="project-link" href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              <div className="project-title">Mobile Attendance</div>
+              <div className="project-desc">Mobile Attendance to maintain the employee attendance when entering the regional 
+Geo-Fencing arena.</div>
+              {/* <a className="project-link" href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">View on GitHub</a> */}
             </li>
             <li className="project-card">
-              <div className="project-title">DevOps Automation Suite</div>
-              <div className="project-desc">Automated CI/CD pipelines and infrastructure as code using Docker, Kubernetes, and GitHub Actions.</div>
-              <a className="project-link" href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              <div className="project-title">School Bus Track</div>
+              <div className="project-desc">School Bus Track for tracking the school buses which means gives the bus location and 
+estimated arrival time to home/school. Once reached school/home can get notification. Can get 
+history of the notification and events.</div>
+              {/* <a className="project-link" href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">View on GitHub</a> */}
             </li>
           </ul>
         </section>
@@ -184,7 +188,7 @@ function App() {
         </section>
       </main>
       <footer className="footer">
-        © 2025 Venkat | Fullstack Portfolio
+        © 2025 VENKAT | Developer Portfolio
       </footer>
     </div>
   );
